@@ -7,6 +7,7 @@ using FlatRedBall.Graphics;
 using FlatRedBall.Math.Geometry;
 using FlatRedBall.Input;
 using FlatRedBall.Graphics.Animation;
+using FlatRedBall.Content.AnimationChain;
 
 using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Audio;
@@ -31,6 +32,8 @@ namespace Shmup
         private Sprite[] mIdleA;
         private double mIdlePlayedTime;
         private int mFrameNum;
+
+        private AnimationChainList mAnimations;
 
         private string mCurrentA;
         private string mLastA;
@@ -82,6 +85,19 @@ namespace Shmup
             mIdleA = new Sprite[2];
             mIdlePlayedTime = TimeManager.CurrentTime;
             mFrameNum = 0;
+
+            mAnimations = new AnimationChainList();
+            AnimationChain idle = new AnimationChain();
+            idle.Add(new AnimationFrame(@"Content\Player\playeridle0", .12f, "Global"));
+            idle.Add(new AnimationFrame(@"Content\Player\playeridle1", .12f, "Global"));
+
+            AnimationChain die = new AnimationChain();
+            die.Add(new AnimationFrame(@"Content\Player\playerdie0", .12f, "Global"));
+            die.Add(new AnimationFrame(@"Content\Player\playerdie1", .12f, "Global"));
+            die.Add(new AnimationFrame(@"Content\Player\playerdie2", .12f, "Global"));
+
+            mAnimations.Add(idle);
+            mAnimations.Add(die);
 
             InitializeIdle();
 
@@ -139,7 +155,8 @@ namespace Shmup
             // Here you may want to add your objects to the engine.  Use layerToAddTo
             // when adding if your Entity supports layers.  Make sure to attach things
             // to this if appropriate.
-            mVisibleRepresentation = SpriteManager.AddSprite(@"Content\player", mContentManagerName);
+            //mVisibleRepresentation = SpriteManager.AddSprite(@"Content\player", mContentManagerName);
+            mVisibleRepresentation = SpriteManager.AddSprite(mAnimations[0]);
             mVisibleRepresentation.AttachTo(this, false);
             mVisibleRepresentation.ScaleX = 1.2f;
             mVisibleRepresentation.ScaleY = 1.2f;
