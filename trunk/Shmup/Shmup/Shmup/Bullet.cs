@@ -86,15 +86,15 @@ namespace Shmup
             mVisibleRepresentation.AttachTo(this, false);
             mVisibleRepresentation.Visible = false;
 
-            mVisibleRepresentation.ScaleX = 0.1f;
-            mVisibleRepresentation.ScaleY = 0.1f;
+            mVisibleRepresentation.ScaleX = 0.2f;
+            mVisibleRepresentation.ScaleY = 0.2f;
 
             mVisibleRepresentation2 = SpriteManager.AddSprite(@"Content\friendBullet", mContentManagerName);
             mVisibleRepresentation2.AttachTo(this, false);
             mVisibleRepresentation2.Visible = false;
 
-            mVisibleRepresentation2.ScaleX = 0.1f;
-            mVisibleRepresentation2.ScaleY = 0.1f;
+            mVisibleRepresentation2.ScaleX = 0.2f;
+            mVisibleRepresentation2.ScaleY = 0.2f;
 
             mCollision = ShapeManager.AddCircle();
             mCollision.AttachTo(this, false);
