@@ -5,6 +5,8 @@ using System.Text;
 using FlatRedBall;
 using FlatRedBall.Graphics;
 using FlatRedBall.Math.Geometry;
+using FlatRedBall.Graphics.Animation;
+using FlatRedBall.Content.AnimationChain;
 
 using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Audio;
@@ -29,6 +31,8 @@ namespace Shmup
 
         // Keep the ContentManager for easy access:
         string mContentManagerName;
+
+        private AnimationChainList mAnimations;
 
         private SoundEffect shootSound;
 
@@ -92,6 +96,46 @@ namespace Shmup
 
             shootSound = FlatRedBallServices.Load<SoundEffect>(@"Content\Sounds\LaserShot");
 
+            mAnimations = new AnimationChainList();
+            AnimationChain eIdle = new AnimationChain();
+            eIdle.Add(new AnimationFrame(@"Content\Enemy\enemyidle0", .12f, "Global"));
+            eIdle.Add(new AnimationFrame(@"Content\Enemy\enemyidle1", .12f, "Global"));
+
+            AnimationChain eDie = new AnimationChain();
+            eDie.Add(new AnimationFrame(@"Content\Enemy\enemydie0", .12f, "Global"));
+            eDie.Add(new AnimationFrame(@"Content\Enemy\enemydie1", .12f, "Global"));
+            eDie.Add(new AnimationFrame(@"Content\Enemy\enemydie2", .12f, "Global"));
+            eDie.Add(new AnimationFrame(@"Content\Enemy\enemydie3", .12f, "Global"));
+
+            AnimationChain eRevive = new AnimationChain();
+            eRevive.Add(new AnimationFrame(@"Content\Enemy\enemydie3", .12f, "Global"));
+            eRevive.Add(new AnimationFrame(@"Content\Enemy\enemydie2", .12f, "Global"));
+            eRevive.Add(new AnimationFrame(@"Content\Enemy\enemydie1", .12f, "Global"));
+            eRevive.Add(new AnimationFrame(@"Content\Enemy\enemydie0", .12f, "Global"));
+
+            AnimationChain aIdle = new AnimationChain();
+            aIdle.Add(new AnimationFrame(@"Content\Ally\allyidle0", .12f, "Global"));
+            aIdle.Add(new AnimationFrame(@"Content\Ally\allyidle1", .12f, "Global"));
+
+            AnimationChain aDie = new AnimationChain();
+            aDie.Add(new AnimationFrame(@"Content\Ally\allydie0", .12f, "Global"));
+            aDie.Add(new AnimationFrame(@"Content\Ally\allydie1", .12f, "Global"));
+            aDie.Add(new AnimationFrame(@"Content\Ally\allydie2", .12f, "Global"));
+            aDie.Add(new AnimationFrame(@"Content\Ally\allydie3", .12f, "Global"));
+
+            AnimationChain aRevive = new AnimationChain();
+            aRevive.Add(new AnimationFrame(@"Content\Ally\allydie3", .12f, "Global"));
+            aRevive.Add(new AnimationFrame(@"Content\Ally\allydie2", .12f, "Global"));
+            aRevive.Add(new AnimationFrame(@"Content\Ally\allydie1", .12f, "Global"));
+            aRevive.Add(new AnimationFrame(@"Content\Ally\allydie0", .12f, "Global"));
+
+            mAnimations.Add(eIdle);
+            mAnimations.Add(eDie);
+            mAnimations.Add(eRevive);
+            mAnimations.Add(aIdle);
+            mAnimations.Add(aDie);
+            mAnimations.Add(aRevive);
+
             if (addToManagers)
             {
                 AddToManagers(null);
@@ -107,13 +151,13 @@ namespace Shmup
             // Here you may want to add your objects to the engine.  Use layerToAddTo
             // when adding if your Entity supports layers.  Make sure to attach things
             // to this if appropriate.
-            mVisibleRepresentation = SpriteManager.AddSprite(@"Content\enemy", mContentManagerName);
+            mVisibleRepresentation = SpriteManager.AddSprite(mAnimations[0]);
             mVisibleRepresentation.AttachTo(this, false);
             mVisibleRepresentation.Visible = false;
             mVisibleRepresentation.ScaleX = 0.7f;
             mVisibleRepresentation.ScaleY = 0.7f;
 
-            mVisibleRepresentation2 = SpriteManager.AddSprite(@"Content\ally", mContentManagerName);
+            mVisibleRepresentation2 = SpriteManager.AddSprite(mAnimations[3]);
             mVisibleRepresentation2.AttachTo(this, false);
             mVisibleRepresentation2.Visible = false;
             mVisibleRepresentation2.ScaleX = 0.7f;
