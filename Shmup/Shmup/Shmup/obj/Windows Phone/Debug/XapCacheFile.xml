@@ -1,0 +1,39 @@
+﻿<xapCache source="C:\Users\Nathaniel Lam\Desktop\GGJ2012\Shmup\Shmup\Shmup\bin\Windows Phone\Debug\Shmup.xap" wasSigned="False" certificateThumbprint="" TimeStampUrl="" lastWriteTime="1/28/2012 4:15:34 PM">
+  <file source="C:\Users\Nathaniel Lam\Desktop\GGJ2012\Shmup\Shmup\Shmup\Background.png" archivePath="Background.png" lastWriteTime="9/8/2010 7:35:32 PM" />
+  <file source="C:\Users\Nathaniel Lam\Desktop\GGJ2012\Shmup\Shmup\Shmup\GameThumbnail.png" archivePath="GameThumbnail.png" lastWriteTime="9/8/2010 7:35:32 PM" />
+  <file source="C:\Users\Nathaniel Lam\Desktop\GGJ2012\Shmup\Shmup\Shmup\bin\Windows Phone\Debug\AppManifest.xaml" archivePath="AppManifest.xaml" lastWriteTime="1/27/2012 8:29:14 PM" />
+  <file source="C:\Users\Nathaniel Lam\Desktop\GGJ2012\Shmup\Shmup\Shmup\obj\Windows Phone\Debug\WMAppManifest.xml" archivePath="WMAppManifest.xml" lastWriteTime="1/27/2012 8:29:14 PM" />
+  <file source="C:\Users\Nathaniel Lam\Desktop\GGJ2012\Shmup\Shmup\Shmup\bin\Windows Phone\Debug\Shmup.dll" archivePath="Shmup.dll" lastWriteTime="1/28/2012 4:15:33 PM" />
+  <file source="C:\Users\Nathaniel Lam\Desktop\GGJ2012\Shmup\Shmup\Shmup\Libraries\WindowsPhone\FlatRedBall.dll" archivePath="FlatRedBall.dll" lastWriteTime="3/22/2011 8:03:06 PM" />
+  <file source="C:\Users\Nathaniel Lam\Desktop\GGJ2012\Shmup\Shmup\Shmup\bin\Windows Phone\Debug\Content\friendBullet.xnb" archivePath="Content\friendBullet.xnb" lastWriteTime="1/28/2012 2:20:06 PM" />
+  <file source="C:\Users\Nathaniel Lam\Desktop\GGJ2012\Shmup\Shmup\Shmup\bin\Windows Phone\Debug\Content\foeBullet.xnb" archivePath="Content\foeBullet.xnb" lastWriteTime="1/28/2012 2:20:06 PM" />
+  <file source="C:\Users\Nathaniel Lam\Desktop\GGJ2012\Shmup\Shmup\Shmup\bin\Windows Phone\Debug\Content\player.xnb" archivePath="Content\player.xnb" lastWriteTime="1/28/2012 2:20:06 PM" />
+  <file source="C:\Users\Nathaniel Lam\Desktop\GGJ2012\Shmup\Shmup\Shmup\bin\Windows Phone\Debug\Content\ally.xnb" archivePath="Content\ally.xnb" lastWriteTime="1/28/2012 2:20:06 PM" />
+  <file source="C:\Users\Nathaniel Lam\Desktop\GGJ2012\Shmup\Shmup\Shmup\bin\Windows Phone\Debug\Content\enemy.xnb" archivePath="Content\enemy.xnb" lastWriteTime="1/28/2012 2:20:06 PM" />
+  <file source="C:\Users\Nathaniel Lam\Desktop\GGJ2012\Shmup\Shmup\Shmup\bin\Windows Phone\Debug\Content\Player\playeridle0.xnb" archivePath="Content\Player\playeridle0.xnb" lastWriteTime="1/28/2012 3:09:02 PM" />
+  <file source="C:\Users\Nathaniel Lam\Desktop\GGJ2012\Shmup\Shmup\Shmup\bin\Windows Phone\Debug\Content\Player\playeridle1.xnb" archivePath="Content\Player\playeridle1.xnb" lastWriteTime="1/28/2012 3:09:02 PM" />
+  <file source="C:\Users\Nathaniel Lam\Desktop\GGJ2012\Shmup\Shmup\Shmup\bin\Windows Phone\Debug\Content\HealthBar\health0.xnb" archivePath="Content\HealthBar\health0.xnb" lastWriteTime="1/28/2012 3:09:02 PM" />
+  <file source="C:\Users\Nathaniel Lam\Desktop\GGJ2012\Shmup\Shmup\Shmup\bin\Windows Phone\Debug\Content\HealthBar\health1.xnb" archivePath="Content\HealthBar\health1.xnb" lastWriteTime="1/28/2012 3:09:02 PM" />
+  <file source="C:\Users\Nathaniel Lam\Desktop\GGJ2012\Shmup\Shmup\Shmup\bin\Windows Phone\Debug\Content\HealthBar\health2.xnb" archivePath="Content\HealthBar\health2.xnb" lastWriteTime="1/28/2012 3:09:02 PM" />
+  <file source="C:\Users\Nathaniel Lam\Desktop\GGJ2012\Shmup\Shmup\Shmup\bin\Windows Phone\Debug\Content\HealthBar\health3.xnb" archivePath="Content\HealthBar\health3.xnb" lastWriteTime="1/28/2012 3:09:02 PM" />
+  <file source="C:\Users\Nathaniel Lam\Desktop\GGJ2012\Shmup\Shmup\Shmup\bin\Windows Phone\Debug\Content\Sounds\Explosion.xnb" archivePath="Content\Sounds\Explosion.xnb" lastWriteTime="1/28/2012 3:38:03 PM" />
+  <file source="C:\Users\Nathaniel Lam\Desktop\GGJ2012\Shmup\Shmup\Shmup\bin\Windows Phone\Debug\Content\Sounds\LaserShot.xnb" archivePath="Content\Sounds\LaserShot.xnb" lastWriteTime="1/28/2012 3:38:03 PM" />
+  <file source="C:\Users\Nathaniel Lam\Desktop\GGJ2012\Shmup\Shmup\Shmup\bin\Windows Phone\Debug\Content\Ally\allydie0.xnb" archivePath="Content\Ally\allydie0.xnb" lastWriteTime="1/28/2012 3:56:35 PM" />
+  <file source="C:\Users\Nathaniel Lam\Desktop\GGJ2012\Shmup\Shmup\Shmup\bin\Windows Phone\Debug\Content\Ally\allydie1.xnb" archivePath="Content\Ally\allydie1.xnb" lastWriteTime="1/28/2012 3:56:36 PM" />
+  <file source="C:\Users\Nathaniel Lam\Desktop\GGJ2012\Shmup\Shmup\Shmup\bin\Windows Phone\Debug\Content\Ally\allydie2.xnb" archivePath="Content\Ally\allydie2.xnb" lastWriteTime="1/28/2012 3:56:36 PM" />
+  <file source="C:\Users\Nathaniel Lam\Desktop\GGJ2012\Shmup\Shmup\Shmup\bin\Windows Phone\Debug\Content\Ally\allydie3.xnb" archivePath="Content\Ally\allydie3.xnb" lastWriteTime="1/28/2012 3:56:36 PM" />
+  <file source="C:\Users\Nathaniel Lam\Desktop\GGJ2012\Shmup\Shmup\Shmup\bin\Windows Phone\Debug\Content\Ally\allyidle0.xnb" archivePath="Content\Ally\allyidle0.xnb" lastWriteTime="1/28/2012 3:56:36 PM" />
+  <file source="C:\Users\Nathaniel Lam\Desktop\GGJ2012\Shmup\Shmup\Shmup\bin\Windows Phone\Debug\Content\Ally\allyidle1.xnb" archivePath="Content\Ally\allyidle1.xnb" lastWriteTime="1/28/2012 3:56:36 PM" />
+  <file source="C:\Users\Nathaniel Lam\Desktop\GGJ2012\Shmup\Shmup\Shmup\bin\Windows Phone\Debug\Content\Enemy\enemydie0.xnb" archivePath="Content\Enemy\enemydie0.xnb" lastWriteTime="1/28/2012 3:56:36 PM" />
+  <file source="C:\Users\Nathaniel Lam\Desktop\GGJ2012\Shmup\Shmup\Shmup\bin\Windows Phone\Debug\Content\Enemy\enemydie1.xnb" archivePath="Content\Enemy\enemydie1.xnb" lastWriteTime="1/28/2012 3:56:36 PM" />
+  <file source="C:\Users\Nathaniel Lam\Desktop\GGJ2012\Shmup\Shmup\Shmup\bin\Windows Phone\Debug\Content\Enemy\enemydie2.xnb" archivePath="Content\Enemy\enemydie2.xnb" lastWriteTime="1/28/2012 3:56:36 PM" />
+  <file source="C:\Users\Nathaniel Lam\Desktop\GGJ2012\Shmup\Shmup\Shmup\bin\Windows Phone\Debug\Content\Enemy\enemydie3.xnb" archivePath="Content\Enemy\enemydie3.xnb" lastWriteTime="1/28/2012 3:56:36 PM" />
+  <file source="C:\Users\Nathaniel Lam\Desktop\GGJ2012\Shmup\Shmup\Shmup\bin\Windows Phone\Debug\Content\Enemy\enemyidle0.xnb" archivePath="Content\Enemy\enemyidle0.xnb" lastWriteTime="1/28/2012 3:56:36 PM" />
+  <file source="C:\Users\Nathaniel Lam\Desktop\GGJ2012\Shmup\Shmup\Shmup\bin\Windows Phone\Debug\Content\Enemy\enemyidle1.xnb" archivePath="Content\Enemy\enemyidle1.xnb" lastWriteTime="1/28/2012 3:56:36 PM" />
+  <file source="C:\Users\Nathaniel Lam\Desktop\GGJ2012\Shmup\Shmup\Shmup\bin\Windows Phone\Debug\Content\Player\playerdie0.xnb" archivePath="Content\Player\playerdie0.xnb" lastWriteTime="1/28/2012 4:14:20 PM" />
+  <file source="C:\Users\Nathaniel Lam\Desktop\GGJ2012\Shmup\Shmup\Shmup\bin\Windows Phone\Debug\Content\Player\playerdie1.xnb" archivePath="Content\Player\playerdie1.xnb" lastWriteTime="1/28/2012 4:14:20 PM" />
+  <file source="C:\Users\Nathaniel Lam\Desktop\GGJ2012\Shmup\Shmup\Shmup\bin\Windows Phone\Debug\Content\Player\playerdie2.xnb" archivePath="Content\Player\playerdie2.xnb" lastWriteTime="1/28/2012 4:14:20 PM" />
+  <file source="C:\Users\Nathaniel Lam\Desktop\GGJ2012\Shmup\Shmup\Shmup\bin\Windows Phone\Debug\Content\Songs\SoI.xnb" archivePath="Content\Songs\SoI.xnb" lastWriteTime="1/28/2012 4:14:25 PM" />
+  <file source="C:\Users\Nathaniel Lam\Desktop\GGJ2012\Shmup\Shmup\Shmup\bin\Windows Phone\Debug\Content\Songs\SoI.wma" archivePath="Content\Songs\SoI.wma" lastWriteTime="1/28/2012 4:14:25 PM" />
+  <file source="C:\Users\Nathaniel Lam\Desktop\GGJ2012\Shmup\Shmup\Shmup\bin\Windows Phone\Debug\redball.png" archivePath="redball.png" lastWriteTime="9/8/2010 11:00:32 PM" />
+</xapCache>
