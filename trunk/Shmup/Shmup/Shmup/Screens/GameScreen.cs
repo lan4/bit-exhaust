@@ -29,6 +29,8 @@ namespace Shmup.Screens
 
         SoundEffect explosionSound;
 
+        Sprite bg;
+
         double timeOfLastSpawn;
         const double SPAWN_DELAY = 1.0f;
 	
@@ -64,7 +66,7 @@ namespace Shmup.Screens
             timeOfLastSpawn = TimeManager.CurrentTime;
 
             explosionSound = FlatRedBallServices.Load<SoundEffect>(@"Content\Sounds\Explosion");
-            
+
 			
 			// AddToManagers should be called LAST in this method:
 			if(addToManagers)
@@ -101,6 +103,12 @@ namespace Shmup.Screens
             winText.X = -8.0f;
             winText.Visible = false;
              * */
+
+            bg = SpriteManager.AddSprite(@"Content\BG\bg");
+            bg.ScaleX = 20.0f;
+            bg.ScaleY = 20.0f;
+            bg.Z = -1.0f;
+
 		}
 		
         #endregion
@@ -283,6 +291,7 @@ namespace Shmup.Screens
             TextManager.RemoveText(waveText);
             TextManager.RemoveText(numEnemies);
             TextManager.RemoveText(numAllies);
+            SpriteManager.RemoveSprite(bg);
 
         }
 
