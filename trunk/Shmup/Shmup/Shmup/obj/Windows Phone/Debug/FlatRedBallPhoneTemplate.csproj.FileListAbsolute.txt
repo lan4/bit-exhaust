@@ -1,0 +1,14 @@
+c:\users\kevin\documents\visual studio 2010\Projects\FlatRedBallPhoneTemplate\FlatRedBallPhoneTemplate\FlatRedBallPhoneTemplate\bin\Windows Phone\Debug\redball.png
+c:\users\kevin\documents\visual studio 2010\Projects\FlatRedBallPhoneTemplate\FlatRedBallPhoneTemplate\FlatRedBallPhoneTemplate\bin\Windows Phone\Debug\FlatRedBallPhoneTemplate.dll
+c:\users\kevin\documents\visual studio 2010\Projects\FlatRedBallPhoneTemplate\FlatRedBallPhoneTemplate\FlatRedBallPhoneTemplate\bin\Windows Phone\Debug\FlatRedBallPhoneTemplate.pdb
+c:\users\kevin\documents\visual studio 2010\Projects\FlatRedBallPhoneTemplate\FlatRedBallPhoneTemplate\FlatRedBallPhoneTemplate\bin\Windows Phone\Debug\FlatRedBall.dll
+c:\users\kevin\documents\visual studio 2010\Projects\FlatRedBallPhoneTemplate\FlatRedBallPhoneTemplate\FlatRedBallPhoneTemplate\obj\Windows Phone\Debug\ResolveAssemblyReference.cache
+c:\users\kevin\documents\visual studio 2010\Projects\FlatRedBallPhoneTemplate\FlatRedBallPhoneTemplate\FlatRedBallPhoneTemplate\obj\Windows Phone\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+c:\users\kevin\documents\visual studio 2010\Projects\FlatRedBallPhoneTemplate\FlatRedBallPhoneTemplate\FlatRedBallPhoneTemplate\obj\Windows Phone\Debug\FlatRedBallPhoneTemplate.dll
+c:\users\kevin\documents\visual studio 2010\Projects\FlatRedBallPhoneTemplate\FlatRedBallPhoneTemplate\FlatRedBallPhoneTemplate\obj\Windows Phone\Debug\FlatRedBallPhoneTemplate.pdb
+c:\users\kevin\documents\visual studio 2010\Projects\FlatRedBallPhoneTemplate\FlatRedBallPhoneTemplate\FlatRedBallPhoneTemplate\bin\Windows Phone\Debug\AppManifest.xaml
+c:\users\kevin\documents\visual studio 2010\Projects\FlatRedBallPhoneTemplate\FlatRedBallPhoneTemplate\FlatRedBallPhoneTemplate\obj\Windows Phone\Debug\WMAppManifest.xml.g
+c:\users\kevin\documents\visual studio 2010\Projects\FlatRedBallPhoneTemplate\FlatRedBallPhoneTemplate\FlatRedBallPhoneTemplate\obj\Windows Phone\Debug\WMAppManifest.xml
+bin\Windows Phone\Debug\GameThumbnail.png
+c:\users\kevin\documents\visual studio 2010\Projects\FlatRedBallPhoneTemplate\FlatRedBallPhoneTemplate\FlatRedBallPhoneTemplate\bin\Windows Phone\Debug\FlatRedBallPhoneTemplate.xap
+c:\users\kevin\documents\visual studio 2010\Projects\FlatRedBallPhoneTemplate\FlatRedBallPhoneTemplate\FlatRedBallPhoneTemplate\obj\Windows Phone\Debug\XapCacheFile.xml
