@@ -29,6 +29,9 @@ namespace Shmup
         private Sprite mVisibleRepresentation;
         private Circle mCollision;
 
+        private List<Sprite> mHealthBarList;
+        private Sprite mHealthBar;
+
         private Sprite[] mIdleA;
         private double mIdlePlayedTime;
         private int mFrameNum;
@@ -55,7 +58,7 @@ namespace Shmup
 
         double mTimeOfLastShot;
 
-        public int health;
+        public int mHealth;
 
         #endregion
 
@@ -86,6 +89,12 @@ namespace Shmup
             mIdlePlayedTime = TimeManager.CurrentTime;
             mFrameNum = 0;
 
+            mHealthBarList = new List<Sprite>();
+            mHealthBarList.Add(SpriteManager.AddSprite(@"Content\HealthBar\health0"));
+            mHealthBarList.Add(SpriteManager.AddSprite(@"Content\HealthBar\health1"));
+            mHealthBarList.Add(SpriteManager.AddSprite(@"Content\HealthBar\health2"));
+            mHealthBarList.Add(SpriteManager.AddSprite(@"Content\HealthBar\health3"));
+
             mAnimations = new AnimationChainList();
             AnimationChain idle = new AnimationChain();
             idle.Add(new AnimationFrame(@"Content\Player\playeridle0", .12f, "Global"));
@@ -98,10 +107,9 @@ namespace Shmup
 
             mAnimations.Add(idle);
             mAnimations.Add(die);
-
             InitializeIdle();
 
-            health = 3;
+            mHealth = 3;
 
             // If you don't want to add to managers, make an overriding constructor
             Initialize(true);
@@ -162,6 +170,10 @@ namespace Shmup
             mVisibleRepresentation.ScaleY = 1.2f;
             mVisibleRepresentation.Visible = false;
 
+            mHealthBarList[mHealth].AttachTo(SpriteManager.Camera, false);
+            mHealthBarList[mHealth].ScaleX = 3.0f;
+            mHealthBarList[mHealth].ScaleY = 1.0f;
+
             mCollision = ShapeManager.AddCircle();
             mCollision.AttachTo(this, false);
             mCollision.Radius = 0.6f;
@@ -210,7 +222,7 @@ namespace Shmup
 
         public bool IsDead()
         {
-            return (health <= 0);
+            return (mHealth <= 0);
         }
 
         public virtual void Activity()
