@@ -157,7 +157,7 @@ namespace Shmup.Screens
 
                         if (b.Collision.CollideAgainst(player1.Collision))
                         {
-                            player1.health--;
+                            player1.mHealth--;
                             b.Reset();
                         }
                     }
